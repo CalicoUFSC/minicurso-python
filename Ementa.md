@@ -15,9 +15,9 @@ Aula 2
 - Classes
 
 - Biblioteca padrão:
-- - math
-- - random
-- - itertools
+	- math
+	- random
+	- itertools
 
 Aula 3
 ------
@@ -27,18 +27,16 @@ Aula 3
 - Exceptions
 
 - Biblioteca padrão:
-
-- - os.path
-- - sys
-- - functools
-- - pickle
-- - json
+	- os.path
+	- sys
+	- functools
+	- pickle
+	- json
 
 Aula 4
 ------
 - Biblioteca padrão:
-
-- - socket
+	- socket
 
 - Flask
 - Requests
