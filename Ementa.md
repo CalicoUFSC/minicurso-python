@@ -24,6 +24,7 @@ Aula 3
 - Context managers
 - Decorators
 - Exceptions
+- Dicionários
 - Biblioteca padrão:
 	- os.path
 	- sys
