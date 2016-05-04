@@ -1,8 +1,8 @@
 Aula 1
 ------
 - Variáveis
-- print/input
 - Tipos primitivos
+- print/input
 - Estruturas de controle
 - Estruturas de repeticão
 - Funcões
