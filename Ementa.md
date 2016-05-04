@@ -13,7 +13,6 @@ Aula 2
 - List comprehensions
 - Generators
 - Classes
-
 - Biblioteca padrão:
 	- math
 	- random
@@ -25,7 +24,6 @@ Aula 3
 - Context managers
 - Decorators
 - Exceptions
-
 - Biblioteca padrão:
 	- os.path
 	- sys
@@ -37,7 +35,6 @@ Aula 4
 ------
 - Biblioteca padrão:
 	- socket
-
 - Flask
 - Requests
 
