@@ -2,7 +2,7 @@ Aula 1
 ------
 - Variáveis
 - print/input
-- Tipos abstratos de dados
+- Tipos primitivos
 - Estruturas de controle
 - Estruturas de repeticão
 - Funcões
