@@ -6,5 +6,7 @@ O minicurso é aberto aos alunos da UFSC e a comunidade e tem como objetivo o de
 
 
 Datas: ** em breve mais informações **
+
 Horário: ** em breve mais informações **
+
 Local:  ** em breve mais informações **
