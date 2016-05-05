@@ -4,9 +4,10 @@ Aula 1
 - Tipos primitivos
 - print/input
 - Operadores e Operandos
+- Funções
+- Análise léxica
 - Estruturas de controle
 - Estruturas de repeticão
-- Funcões
 
 Aula 2
 ------
