@@ -16,12 +16,12 @@
 
 # Tipos primitivos
 
-	# Strings: 
+	# Strings:
 	palavra
 
 	# Tipos numéricos:
 	inteiro
-	decimal 
+	decimal
 	booleano
 
 	# Outros:
@@ -38,7 +38,7 @@
 #========================================================================================================
 
 # Estruturas de controle
-	
+
 	if :
 		pass
 
@@ -46,7 +46,7 @@
 
 # Estruturas de repeticão
 
-	for x in xrange(1,10):
+	for x in range(1,10):
 		pass
 
 	while :
@@ -57,7 +57,7 @@
 #========================================================================================================
 
 # Funcões
-	
+
 	def nomeDaFuncao1 (parametros1):
 
 		# comportamento
@@ -69,17 +69,17 @@
 
 	# Exemplo: Função Fibonacci
 
-	def fib2(n): 
+	def fib2(n):
  	#Retorna a lista contendo a serie de Fibonacci ate n
 
 		result = []
 	     a, b = 0, 1
-		
+
 		while b < n:
-			
+
 			result.append(b)
 			a, b = b, a + b
-		
+
 		return result
 
 #========================================================================================================
@@ -89,9 +89,9 @@
 
 # Fazer um programa que escreva a representação em algarismos romanos de um número inteiro positivo.
 # O usuário deve entrar com um número (input) e o resultado deve ser impresso no console (print).
-	
+
 # 	Exemplo de execução:
-# 		- Entre com um numero positivo: 
+# 		- Entre com um numero positivo:
 # 			1985
 # 		- Em algarismos romanos:
 # 			MCMLXXXV
@@ -109,7 +109,7 @@
 # 		Seja 'd' um possível divisor, cujo valor é inicialmente 2.
 
 # 		Repetir:
-		
+
 # 		Se o resto da divisão do número por 'd' é zero, então o número não é primo.
 # 		Caso contrário,
 # 		Incrementar 'd'.
