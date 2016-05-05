@@ -2,11 +2,10 @@
 #
 # ====================================== Notas de aula ================================================
 
-# Bem vindos à primeira aula de Python. Nela abordaremos os tipos
-# primitivos disponíveis na linguagem, como utilizá-los, como
-# mostrá-los na tela e como pedimos externamente o valor de um
-# tipo primitivo e armazenamos esse valor, estruturas de controle
-# (if, else), estruturas de repetição (for, while) e funções
+# Bem vindos à primeira aula de Python. Nela abordaremos os tipos primitivos disponíveis na linguagem,
+# como utilizá-los, como mostrá-los na tela e como pedimos externamente o valor de um tipo primitivo
+# e armazenamos esse valor, estruturas de controle (if, else), estruturas de repetição (for, while)
+# e funções
 
 
 #========================================================================================================
@@ -14,89 +13,31 @@
 
 # Variáveis
 
+# Palavras reservadas
+
 # Tipos primitivos
-
-	# Strings:
-	palavra
-
-	# Tipos numéricos:
-	inteiro
-	decimal
-	booleano
-
-	# Outros:
-	listas
-	dicionarios
 
 # Print/input
 
-	print()
-	input()
-	raw_input()
-
-#========================================================================================================
-#========================================================================================================
-
-# Estruturas de controle
-
-	if :
-		pass
-
-	else
-
-# Estruturas de repeticão
-
-	for x in range(1,10):
-		pass
-
-	while :
-		pass
-
-
-#========================================================================================================
-#========================================================================================================
+# Operadores e Operandos
 
 # Funcões
 
-	def nomeDaFuncao1 (parametros1):
+# Indentação 
 
-		# comportamento
+# Estruturas de controle
 
-	def nomeDaFuncao2 (parametros2):
-
-		# comportamento
+# Estruturas de repeticão
 
 
-	# Exemplo: Função Fibonacci
 
-	def fib2(n):
- 	#Retorna a lista contendo a serie de Fibonacci ate n
-
-		result = []
-	     a, b = 0, 1
-
-		while b < n:
-
-			result.append(b)
-			a, b = b, a + b
-
-		return result
 
 #========================================================================================================
 #========================================================================================================
-
-# Exercício: algarismos romanos
-
-# Fazer um programa que escreva a representação em algarismos romanos de um número inteiro positivo.
-# O usuário deve entrar com um número (input) e o resultado deve ser impresso no console (print).
-
-# 	Exemplo de execução:
-# 		- Entre com um numero positivo:
-# 			1985
-# 		- Em algarismos romanos:
-# 			MCMLXXXV
-
 #========================================================================================================
+
+
+
 
 # Exercício: números primos
 
@@ -115,7 +56,23 @@
 # 		Incrementar 'd'.
 # 		Se 'd' é igual ou maior que o número, então terminar repetição diagnosticando o número como primo
 
+#========================================================================================================
+
+# Exercício: série de Fibonacci até 'n'
+
+#	Escreva um algoritmo que receba um valor 'n' e calcule e mostre os termos da Sequência de Fibonacci
+# 	até 'n'.
 
 #========================================================================================================
-#========================================================================================================
+
+#### DESAFIO
+
+# Fazer um programa que escreva a representação em algarismos romanos de um número inteiro positivo.
+# O usuário deve entrar com um número (input) e o resultado deve ser impresso no console (print).
+
+# 	Exemplo de execução:
+# 		- Entre com um numero positivo:
+# 			1985
+# 		- Em algarismos romanos:
+# 			MCML XXXV
 #========================================================================================================
