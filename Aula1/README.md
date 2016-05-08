@@ -74,13 +74,13 @@ Repetir enquanto d < n:
 Se 'd' é igual ou maior que 'n', então terminar repetição diagnosticando 'n' como primo.
 ```
 
-Crie uma função chamada **is_prime** que implemente o algoritmo acima, recebendo um número positivo e retornando `True` se 'n' for primo e `False` caso contrário.
+Escreva uma função chamada **is_prime** que implemente o algoritmo acima, recebendo um número positivo e retornando `True` se 'n' for primo e `False` caso contrário.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ###4. Algarismos romanos
 
-Crie uma função chamada **to_roman** que receba um número maior que zero e retorne sua representação em algarismos romanos.
+Escreva uma função chamada **to_roman** que receba um número maior que zero e retorne sua representação em algarismos romanos.
 
 Exemplo:
 ```python
