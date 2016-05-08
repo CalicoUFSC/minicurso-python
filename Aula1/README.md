@@ -1,76 +1,88 @@
-# Aula 1 - Tipos primitivos, Estruturas e Funcões
-#
-# ====================================== Notas de aula ================================================
+Aula 1 - Tipos primitivos, estruturas de controle/repetição e funções
+=====================================================================
 
-# Bem vindos à primeira aula de Python. Nela abordaremos os tipos primitivos disponíveis na linguagem,
-# como utilizá-los, como mostrá-los na tela e como pedimos externamente o valor de um tipo primitivo
-# e armazenamos esse valor, estruturas de controle (if, else), estruturas de repetição (for, while)
-# e funções
+Conteúdo de aula
+----------------
 
+<!-- Bem vindos à primeira aula de Python. Nela abordaremos os tipos primitivos disponíveis na linguagem,
+como utilizá-los, como mostrá-los na tela e como pedimos externamente o valor de um tipo primitivo
+e armazenamos esse valor, estruturas de controle (if, else), estruturas de repetição (for, while)
+e funções. -->
 
-#========================================================================================================
-#========================================================================================================
+- Variáveis
 
-# Variáveis
+- Print/input
 
-# Print/input
+- Tipos primitivos
 
-# Tipos primitivos
+- Palavras reservadas
 
-# Palavras reservadas
+- Operadores e Operandos
 
-# Operadores e Operandos
+- Funções
 
-# Funcões
+- Indentação
 
-# Indentação
+- Estruturas de controle
 
-# Estruturas de controle
+- Estruturas de repetição
 
-# Estruturas de repeticão
+Exercícios:
+----------
 
+###1. Fatorial
 
-#========================================================================================================
-#========================================================================================================
-#========================================================================================================
+Escreva uma função chamada **factorial** que receba um valor 'n' e retorne **n!**.
 
+Lembre-se que:
 
-# Exercício: números primos
+```python
+factorial(0) == 1
+```
 
-# 	Um número natural é primo se é divisível apenas por si mesmo ou pela unidade.
-# 	Isto sugere o seguinte algoritmo:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# 		Se o número é 1, então não é primo.
-# 		Se o número é 2, então é primo.
-# 		Caso contrário,
-# 		Seja 'd' um possível divisor, cujo valor é inicialmente 2.
+###2. Série de Fibonacci
 
-# 		Repetir:
+Escreva uma função chamada **fibonacci** que receba um valor 'n' e retorne o n-ésimo termo da Sequência de Fibonacci
 
-# 		Se o resto da divisão do número por 'd' é zero, então o número não é primo.
-# 		Caso contrário,
-# 		Incrementar 'd'.
-# 		Se 'd' é igual ou maior que o número, então terminar repetição diagnosticando o número como primo
-#
-# 		Crie uma funcão chamada 'primo' que implemente
+Lembre-se que:
 
-#========================================================================================================
+```python
+fibonacci(0) == 0
+fibonacci(1) == 1
+```
 
-# Exercício: série de Fibonacci até 'n'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-#	Escreva um algoritmo que receba um valor 'n' e calcule e mostre os termos da Sequência de Fibonacci
-# 	até 'n'.
+###3. Números Primos
 
-#========================================================================================================
+Um número natural é primo se é divisível apenas por 1 e por si mesmo.
+Isto sugere o seguinte algoritmo:
 
-#### DESAFIO
+```
+'n' é o número que desejamos testar a primalidade.
+Se 'n' é 1, então 'n' não é primo.
+Se 'n' é 2, então 'n' é primo.
+Caso contrário,
+Seja 'd' um possível divisor, cujo valor é inicialmente 2.
 
-# Fazer um programa que escreva a representação em algarismos romanos de um número inteiro positivo.
-# O usuário deve entrar com um número (input) e o resultado deve ser impresso no console (print).
+Repetir enquanto d < n:
+    Se o resto da divisão de 'n' por 'd' é zero, então 'n' não é primo.
+    Caso contrário,
+    Incrementar 'd'.
+Se 'd' é igual ou maior que 'n', então terminar repetição diagnosticando 'n' como primo.
+```
 
-# 	Exemplo de execução:
-# 		- Entre com um numero positivo:
-# 			1985
-# 		- Em algarismos romanos:
-# 			MCML XXXV
-#========================================================================================================
+Crie uma função chamada **is_prime** que implemente o algoritmo acima, recebendo um número positivo e retornando `True` se 'n' for primo e `False` caso contrário.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+###4. Algarismos romanos
+
+Crie uma função chamada **to_roman** que receba um número maior que zero e retorne sua representação em algarismos romanos.
+
+Exemplo:
+```python
+to_roman(1985) == 'MCMLXXXV'
+```
