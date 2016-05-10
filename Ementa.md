@@ -3,9 +3,8 @@ Aula 1
 - Variáveis
 - Tipos primitivos
 - print/input
-- Operadores e Operandos
+- Operações matemáticas e lógicas
 - Funções
-- Análise léxica
 - Estruturas de controle
 - Estruturas de repeticão
 
@@ -36,8 +35,6 @@ Aula 3
 
 Aula 4
 ------
-- Biblioteca padrão:
-	- socket
 - Flask
 - Requests
 
