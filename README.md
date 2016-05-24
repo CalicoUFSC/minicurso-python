@@ -6,9 +6,6 @@ O minicurso é aberto aos alunos da UFSC e a comunidade e tem como objetivo o de
 
 [Inscrições AQUI](http://goo.gl/forms/dnQx3P6AK1)
 
+Horário: Terças, das 18h30 até 20h10
 
-Datas: ** em breve mais informações **
-
-Horário: ** em breve mais informações **
-
-Local:  ** em breve mais informações **
+Local: LIICT Sala 3

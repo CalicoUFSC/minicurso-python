@@ -4,20 +4,15 @@ Aula 1 - Tipos primitivos, estruturas de controle/repetição e funções
 Conteúdo de aula
 ----------------
 
-<!-- Bem vindos à primeira aula de Python. Nela abordaremos os tipos primitivos disponíveis na linguagem,
-como utilizá-los, como mostrá-los na tela e como pedimos externamente o valor de um tipo primitivo
-e armazenamos esse valor, estruturas de controle (if, else), estruturas de repetição (for, while)
-e funções. -->
-
 - Variáveis
 
 - Print/input
 
 - Tipos primitivos
 
-- Palavras reservadas
+<!-- - Palavras reservadas -->
 
-- Operadores e Operandos
+- Operações lógicas e aritméticas
 
 - Funções
 
@@ -80,7 +75,7 @@ Escreva uma função chamada **is_prime** que implemente o algoritmo acima, rece
 
 ###4. Algarismos romanos
 
-Escreva uma função chamada **to_roman** que receba um número maior que zero e retorne sua representação em algarismos romanos.
+Escreva uma função chamada **to_roman** que receba um número maior que zero e menor que 3999 e retorne sua representação em algarismos romanos.
 
 Exemplo:
 ```python

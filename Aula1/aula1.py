@@ -8,5 +8,8 @@ def fibonacci(n):
 def factorial(n):
 	pass
 
+def mmc(a, b):
+	pass
+
 def to_roman(n):
 	pass
