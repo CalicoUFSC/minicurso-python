@@ -38,10 +38,15 @@ Lembre-se que:
 fibonacci(0) == 0
 fibonacci(1) == 1
 ```
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+###3. Algoritmo de Euclides
+
+Escreva uma função chamada **mdc** que receba um valor 'a' e  'b' retorne o máximo divisor comum.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-###3. Números Primos
+###4. Números Primos
 
 Um número natural é primo se é divisível apenas por 1 e por si mesmo.
 Isto sugere o seguinte algoritmo:
@@ -63,12 +68,3 @@ Se 'd' é igual ou maior que 'n', então terminar repetição diagnosticando 'n'
 Escreva uma função chamada **is_prime** que implemente o algoritmo acima, recebendo um número positivo e retornando `True` se 'n' for primo e `False` caso contrário.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-###4. Algarismos romanos
-
-Escreva uma função chamada **to_roman** que receba um número maior que zero e menor que 3999 e retorne sua representação em algarismos romanos.
-
-Exemplo:
-```python
-to_roman(1985) == 'MCMLXXXV'
-```
