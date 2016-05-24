@@ -2,7 +2,7 @@ Aula 1
 ------
 - Variáveis
 - Tipos primitivos
-- print/input
+- print
 - Operações matemáticas e lógicas
 - Funções
 - Estruturas de controle

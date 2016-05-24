@@ -5,21 +5,12 @@ Conteúdo de aula
 ----------------
 
 - Variáveis
-
 - Print/input
-
 - Tipos primitivos
-
-<!-- - Palavras reservadas -->
-
 - Operações lógicas e aritméticas
-
 - Funções
-
 - Indentação
-
 - Estruturas de controle
-
 - Estruturas de repetição
 
 Exercícios:
