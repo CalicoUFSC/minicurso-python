@@ -66,7 +66,6 @@ domain_name("https://ufsc.br") == "ufsc"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ###3. Elementos repetidos
-different_evenness
 Escreva uma função chamada **remove_duplicates** que receba uma lista e teste se ela possui mais de um do mesmo elemento. Caso sim remova as que tiverem menor índice.
 
 Exemplo:

@@ -1,5 +1,6 @@
 import unittest
 import sys
+from random import randint, shuffle
 
 with open('.gabarito_aula2.py') as file_gabarito:
 	global str_gabarito
@@ -40,12 +41,14 @@ class TesteAula2(unittest.TestCase):
 	@unittest.skipIf('remove_duplicates' not in vars(aula2),
 					 'Função "remove_duplicates" não foi encontrada')
 	def test_remove_duplicates(self):
-		pass
+		for _ in range(40):
+			t = [randint(0,5) for _ in range(randint(0, 30))]
+
+			self.assertEqual(aula2.remove_duplicates(t), remove_duplicates(t))
 
 	@unittest.skipIf('different_evenness' not in vars(aula2),
 					 'Função "different_evenness" não foi encontrada')
 	def test_different_evenness(self):
-		from random import randint
 		for _ in range(40):
 		    testlen=randint(3,50)
 		    oddeven=randint(0,1)
