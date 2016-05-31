@@ -5,39 +5,36 @@ Aula 1
 - print
 - Operações matemáticas e lógicas
 - Funções
-- Estruturas de controle
-- Estruturas de repeticão
+- Estruturas de controle (if)
+- Estruturas de repeticão (while)
 
 Aula 2
 ------
+- Callback
 - Listas
+- Estruturas de repeticão (for)
 - List comprehensions
+- Módulos
+
+Aula 3
+------
 - Generators
 - Classes
+- Exceptions
+- Dicionários
 - Biblioteca padrão:
+	- functools
 	- math
 	- random
 	- itertools
 
-Aula 3
+Aula 4
 ------
 - I/O de arquivos
 - Context managers
 - Decorators
-- Exceptions
-- Dicionários
 - Biblioteca padrão:
 	- os.path
 	- sys
-	- functools
 	- pickle
 	- json
-
-Aula 4
-------
-- Flask
-- Requests
-
-Aula 5-8
-------
-TO-DO
