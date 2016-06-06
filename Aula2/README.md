@@ -1,12 +1,12 @@
-Aula 1 - Listas
+Aula 2 - Listas e Strings
 ===============
 
 Conteúdo de aula
 ----------------
 
 - Listas
+- Strings
 - Estruturas de repetição (for)
-- List comprehensions
 - Módulos
 
 Métodos mais importantes de list e str
@@ -14,23 +14,134 @@ Métodos mais importantes de list e str
 
 ###[list](https://docs.python.org/3/tutorial/datastructures.html):
 ```python
-append(x)   # Adiciona x no final da lista
-remove(x)   # Remove o x com menor indice
-pop([i])    # Remove o elemento no indice i, se i não for especificado, remove o elemento no final da lista
-count(x)    # Conta quantos elementos iguais a x estão na lista
-index(x)    # Retorna o índice do elemento x na lista, se tornará um erro caso o elemento não estiver na lista
+lista.append(x)   # Adiciona x no final da lista
+lista.remove(x)   # Remove o x com menor indice
+lista.pop([i])    # Remove o elemento no indice i, se i não for especificado, remove o elemento no final da lista
+lista.count(x)    # Conta quantos elementos iguais a x estão na lista
+lista.index(x)    # Retorna o índice do elemento x na lista, se tornará um erro caso o elemento não estiver na lista
 ```
+
+-----
 
 ###[str](https://docs.python.org/3/library/stdtypes.html):
 ```python
-split([c])                    # Divide a string em todas as ocorrências de c e retorna uma lista com as partes
-strip([c])                    # Remove c do inicio e do final da string (pode ser prefixada com l ou r para ser aplicada em apenas um lado)
-replace(old, new[, count])    # Substitui 'count' ocorrências de old por new, se count não for definido, substitui todas as ocorrências
-join(iterable)                # Retorna uma string
-startswith(s)/endswith(s)     # Testa se a string começa/termina com s
+string.split([c])                    # Divide a string em todas as ocorrências de c e retorna uma lista com as partes
+string.strip([c])                    # Remove c do inicio e do final da string (pode ser prefixada com l ou r para ser aplicada em apenas um lado)
+string.replace(old, new[, count])    # Substitui 'count' ocorrências de old por new, se count não for definido, substitui todas as ocorrências
+string.join(iterable)                # Retorna uma string
+string.startswith(s)/endswith(s)     # Testa se a string começa/termina com s
+lista = list(string)                 # Transforma a string em uma listas (passa a ser modificável)
 ```
 
-- Strings podem ser transformadas em listas para facilitar a manipulação
+-----
+
+###Comando [**for**](https://wiki.python.org/moin/ForLoop):
+
+Sintaxe:
+```python
+for i in iter:
+	# Corpo do for
+```
+
+Em que `i` é a variável de iteração e `iter` é um **iterável**, como por exemplo uma lista, uma string, uma tupla, um generator ou um dicionário.
+
+Exemplos de for-loops:
+
+####Lista:
+```python
+lista = [1, 2, 3]
+for elemento in lista:
+	print(elemento)
+
+```
+
+Imprimirá:
+
+```
+1
+2
+3
+```
+
+####String:
+```python
+string = 'Hello, World!'
+for char in string:
+	print(char)
+```
+Imprimirá:
+
+```
+H
+e
+l
+l
+o
+,
+
+W
+o
+r
+l
+d
+```
+
+####Range:
+```python
+for i in range(10):
+	print(i)
+```
+
+Este `for` funciona de maneira idêntica a este outro `for`:
+
+```java
+for(int i = 0; i < 10; ++i)
+	System.out.println(i);
+```
+
+###Utilidades para iteráveis:
+
+####Range:
+```python
+range(stop)                # Retorna uma sequência de 0 até stop, incrementando em 1 a cada iteração
+range(start, stop[, step]) # Retorna uma sequência de start até stop, incrementando em step a cada iteração
+```
+
+Obs: o intervalo é sempre [start, stop)
+
+Exemplos:
+```python
+range(10)        # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+range(3, 7)      # 3, 4, 5, 6
+range(5, 100, 5) # 5, 10, 15, 20, 25, 30, 35, 40, 45
+range(1, 20, 2)  # 10, 8, 6, 4, 2, 0, -2, -4, -6, -8
+```
+
+####Enumerate:
+
+```python
+enumerate(iteravel) # Retorna uma sequência de tuplas na forma (index, iteravel[index])
+```
+
+Exemplo:
+```python
+string = 'python'
+for index, char in enumerate(string):
+	print(index, char)
+```
+
+Imprimirá:
+
+```
+0 p
+1 y
+2 t
+3 h
+4 o
+5 n
+```
+
+
 
 Exercícios:
 ----------
@@ -47,7 +158,7 @@ likes(["Daniel", "Eliana", "Fabio"])            # deve retornar: "Daniel, Eliana
 likes(["Giulia", "Heloisa", "Isabela", "João"]) # deve retornar: "Giulia, Heloisa e 2 outros curtiram isso"
 ```
 
-A partir de 4 elemenos apenas o número em `2 outros curtiram` aumenta.
+A partir de 4 elementos apenas o número em `2 outros curtiram` aumenta.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -87,3 +198,7 @@ Exemplo:
 different_evenness("1 2 2") == 0
 different_evenness("2 4 7 8 10") == 2
 ```
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+###5.

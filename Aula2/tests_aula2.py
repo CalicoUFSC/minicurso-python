@@ -1,14 +1,7 @@
 import unittest
 import sys
+import gabarito_aula2
 from random import randint, shuffle
-
-with open('.gabarito_aula2.py') as file_gabarito:
-	global str_gabarito
-	str_gabarito = file_gabarito.read()
-
-exec(str_gabarito)
-
-print(remove_duplicates([1,2,2,3,3,4,4,1,2,3,4]))
 
 try:
 	import aula2
@@ -28,7 +21,7 @@ class TesteAula2(unittest.TestCase):
 		]
 
 		for s in test_cases:
-			self.assertEqual(aula2.domain_name(test_cases), domain_name(test_cases))
+			self.assertEqual(aula2.domain_name(test_cases), aula2.domain_name(test_cases))
 
 	@unittest.skipIf('likes' not in vars(aula2),
 					 'Função "likes" não foi encontrada')
@@ -36,7 +29,9 @@ class TesteAula2(unittest.TestCase):
 		for i in range(10):
 			x = map(str, list(range(i)))
 
-			self.assertEqual(aula2.likes, second)
+			shuffle(x)
+
+			self.assertEqual(aula2.likes(x), gabarito_aula2.likes(x)
 
 	@unittest.skipIf('remove_duplicates' not in vars(aula2),
 					 'Função "remove_duplicates" não foi encontrada')

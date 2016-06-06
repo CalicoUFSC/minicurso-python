@@ -10,31 +10,39 @@ Aula 1
 
 Aula 2
 ------
-- Callback
 - Listas
+- Strings
 - Estruturas de repeticão (for)
-- List comprehensions
 - Módulos
 
 Aula 3
 ------
+- List comprehensions
 - Generators
+- Callback
+
+Aula 4
+------
 - Classes
 - Exceptions
+- I/O de arquivos
+- Context managers
+
+Aula 5
+------
 - Dicionários
+- Decorators
+- Biblioteca padrão:
+	- os.path
+	- sys
+	- json
+	- pickle
+
+Aula 6
+------
 - Biblioteca padrão:
 	- functools
 	- math
 	- random
 	- itertools
-
-Aula 4
-------
-- I/O de arquivos
-- Context managers
-- Decorators
-- Biblioteca padrão:
-	- os.path
-	- sys
-	- pickle
-	- json
+- TO-DO
