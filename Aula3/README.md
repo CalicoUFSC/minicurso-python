@@ -13,7 +13,7 @@ Conteúdo de aula
 Oferece uma sintaxe mais elegante para criar listas.
 
 Similar a notação de conjuntos:
-[https://en.wikipedia.org/api/rest_v1/media/math/render/svg/0613bcc58e223e12836b2799cf5cf64c024066dc]
+!(https://en.wikipedia.org/api/rest_v1/media/math/render/svg/0613bcc58e223e12836b2799cf5cf64c024066dc)
 
 Este código:
 
@@ -92,9 +92,35 @@ Use list comprehensions.
 
 ###2. Zip
 
-Escreva uma função/generator chamada **zip** que recebe uma lista de listas [list1, list2, ..., listn] e na i-ésima chamada de `next` retorne (`yield`) uma **tupla** com os i-ésimos elementos de cada lista (list1[i], list2[i], ..., listn[i]).
+Escreva uma função/generator chamada **zip** que recebe uma lista de listas [list1, list2, ..., listn] e na i-ésima chamada de `next` retorne (`yield`) uma lista com os i-ésimos elementos de cada lista [list1[i], list2[i], ..., listn[i]].
 
 Use list comprehensions.
+
+O código deve executar até a menor lista ser esgotada.
+
+Dica: a função `min` recebe uma lista como argumento e retorna o menor elemento.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+###3. Add By
+
+Escreva uma função chamada **add_by** que receba um parâmetro `x` e retorne uma outra função que recebe um parâmetro `y`, que por sua vez retorna `x+y`.
+
+Exemplo:
+```python
+increment = add_by(1)
+
+increment(3) == 4
+increment(10) == 11
+increment(y) == y+1
+
+
+add_five = add_by(5)
+
+add_five(3) == 8
+add_five(10) == 15
+add_five(y) == y+5
+```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
