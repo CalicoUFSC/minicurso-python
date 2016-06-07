@@ -28,7 +28,7 @@ lista.index(x)    # Retorna o índice do elemento x na lista, se tornará um err
 string.split([c])                    # Divide a string em todas as ocorrências de c e retorna uma lista com as partes
 string.strip([c])                    # Remove c do inicio e do final da string (pode ser prefixada com l ou r para ser aplicada em apenas um lado)
 string.replace(old, new[, count])    # Substitui 'count' ocorrências de old por new, se count não for definido, substitui todas as ocorrências
-string.join(iterable)                # Retorna uma string
+string.join(iterable)                # Retorna uma nova string que representa a concatenação de todos os elementos em iterable. O separador utilizado é a string utilizada para chamar o método.
 string.startswith(s)/endswith(s)     # Testa se a string começa/termina com s
 lista = list(string)                 # Transforma a string em uma listas (passa a ser modificável)
 ```
@@ -114,7 +114,7 @@ Exemplos:
 range(10)        # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 range(3, 7)      # 3, 4, 5, 6
 range(5, 100, 5) # 5, 10, 15, 20, 25, 30, 35, 40, 45
-range(1, 20, 2)  # 10, 8, 6, 4, 2, 0, -2, -4, -6, -8
+range(10, -10, -2)  # 10, 8, 6, 4, 2, 0, -2, -4, -6, -8
 ```
 
 ####Enumerate:

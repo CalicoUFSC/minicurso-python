@@ -13,7 +13,7 @@ Conteúdo de aula
 Oferece uma sintaxe mais elegante para criar listas.
 
 Similar a notação de conjuntos:
-!(https://en.wikipedia.org/api/rest_v1/media/math/render/svg/0613bcc58e223e12836b2799cf5cf64c024066dc)
+![set-builder syntax](https://en.wikipedia.org/api/rest_v1/media/math/render/svg/0613bcc58e223e12836b2799cf5cf64c024066dc)
 
 Este código:
 
@@ -92,7 +92,7 @@ Use list comprehensions.
 
 ###2. Zip
 
-Escreva uma função/generator chamada **zip** que recebe uma lista de listas [list1, list2, ..., listn] e na i-ésima chamada de `next` retorne (`yield`) uma lista com os i-ésimos elementos de cada lista [list1[i], list2[i], ..., listn[i]].
+Escreva um generator chamado **zip** que recebe uma lista de listas [list1, list2, ..., listn] e na i-ésima chamada de `next` retorne (`yield`) uma lista com os i-ésimos elementos de cada lista [list1[i], list2[i], ..., listn[i]].
 
 Use list comprehensions.
 
@@ -102,7 +102,15 @@ Dica: a função `min` recebe uma lista como argumento e retorna o menor element
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-###3. Add By
+###3. Fibonacci Generator
+
+Escreva um generator chamado **fib_gen** que que retorna os números da sequência de Fibonacci.
+
+Lembre-se que o primeiro número da sequência é 0 e o segundo é 1.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+###4. Add By
 
 Escreva uma função chamada **add_by** que receba um parâmetro `x` e retorne uma outra função que recebe um parâmetro `y`, que por sua vez retorna `x+y`.
 
@@ -124,7 +132,7 @@ add_five(y) == y+5
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-###4. Apply
+###5. Apply
 
 Escreva uma função chamada **apply** que recebe uma função `f` e um int `n` e retorna outra função que aplica `f` em `x` `n` vezes.
 

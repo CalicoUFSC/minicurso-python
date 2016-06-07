@@ -5,6 +5,12 @@ def spin_words(sentence):
 			sentence[i] = word[::-1]
 	return ' '.join(sentence)
 
+def zip(lista):
+	menor_len = min([len(lst) for lst in lista])
+
+	for i in range(menor_len):
+		yield [lst[i] for lst in lista]
+
 def apply(f, n):
 	def func(x):
 		h = f(x)
