@@ -25,10 +25,6 @@ def fib_gen():
 		yield a
 		a, b = b, a+b
 
-if __name__ == '__main__':
-	f = apply(lambda x: 2*x, 10)
-
-	f = fib_gen()
-
-	for _ in range(200000):
-		print(next(f))
+def add_by(x):
+	def func(y):
+		return x+y
