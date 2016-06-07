@@ -3,7 +3,6 @@ import sys
 import gabarito_aula3 as gabarito
 from random import randint, shuffle
 
-
 try:
 	import aula3
 except ImportError:

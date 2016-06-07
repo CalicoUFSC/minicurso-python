@@ -141,8 +141,6 @@ Imprimirá:
 5 n
 ```
 
-
-
 Exercícios:
 ----------
 
@@ -201,4 +199,11 @@ different_evenness("2 4 7 8 10") == 2
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-###5.
+###5. Pare de retrevni sahnim !sesarf
+
+Escreva uma função chamada **spin_words** que recebe uma frase e inverte todas as palavras que tenham pelo menos 5 letras.
+
+Exemplo:
+```python
+spin_words('Pare de inverter minhas frases!') == 'Pare de retrevni sahnim !sesarf'
+```
