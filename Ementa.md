@@ -24,25 +24,27 @@ Aula 3
 Aula 4
 ------
 - Classes
-- Exceptions
-- I/O de arquivos
-- Context managers
+- Dicionários
 
 Aula 5
 ------
-- Dicionários
+- Imports
+- Biblioteca padrão:
+	- math
+	- random
+- Exceptions
+- Context managers
+- I/O de arquivos
+
+Aula 6
+------
 - Decorators
 - Biblioteca padrão:
 	- os.path
 	- sys
 	- json
 	- pickle
-
-Aula 6
-------
-- Biblioteca padrão:
 	- functools
-	- math
-	- random
 	- itertools
+
 - TO-DO
