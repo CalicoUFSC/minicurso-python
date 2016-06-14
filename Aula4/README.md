@@ -221,8 +221,10 @@ Esta classe possuirá um dicionário que endereça um código (string) a um obje
 
 Os métodos necessários são:
 
-add(cod, book) - Adiciona book no índice cod
-get(cod)       - Retorna o book associado
-__len___()     - Retorna o tamanho do dicionário
+```python
+add(cod, book) # Adiciona book no índice cod
+get(cod)       # Retorna o book associado
+__len__()      # Retorna o tamanho do dicionário
+```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
