@@ -78,6 +78,8 @@ Métodos que podem ser sobrescritos:
 |str()   | `__str__`  |
 |len()   | `__len__`  |
 |bool()  | `__bool__` |
+|int()   | `__int__`  |
+
 
 Por exemplo:
 
@@ -144,8 +146,41 @@ Exemplos:
 # Chave: Nome
 # Valor: Idade
 
-frutas = { 'Alice' : 10, }
+pessoas = { 'Alice' : 10, 'Bernardo' : 20, 'Carla' : 30 }
+```
 
+Adicionar e modificar valores:
+
+```python
+pessoas['Alice'] = 15
+pessoas['Daniel'] = 40
+```
+
+Remover um elemento:
+
+```python
+del pessoas['Bernardo']
+```
+
+Teste de pertinência:
+
+```python
+'Alice' in pessoas # Retorna um booleano
+```
+
+Iterar sobre dicionário:
+
+```python
+
+for chave in pessoas.keys():
+	print(chave)
+	print(pessoas[chave])
+```
+
+Tamanho do dicionário:
+```python
+len(pessoas)
+```
 
 Exercícios:
 ----------
@@ -187,3 +222,7 @@ Esta classe possuirá um dicionário que endereça um código (string) a um obje
 Os métodos necessários são:
 
 add(cod, book) - Adiciona book no índice cod
+get(cod)       - Retorna o book associado
+__len___()     - Retorna o tamanho do dicionário
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
