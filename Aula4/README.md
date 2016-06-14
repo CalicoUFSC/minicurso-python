@@ -63,21 +63,21 @@ class Person:
 
 Métodos que podem ser sobrescritos:
 
-|Operador|  Método  |
-|--------|----------|
-|+       | __add__  |
-|-       | __sub__  |
-|*       | __mul__  |
-|/       | __div__  |
-|<       | __lt__   |
-|<=      | __le__   |
-|==      | __eq__   |
-|!=      | __ne__   |
-|>=      | __ge__   |
-|>       | __gt__   |
-|str()   | __str__  |
-|len()   | __len__  |
-|bool()  | __bool__ |
+|Operador|  Método    |
+|--------|------------|
+|+       | `__add__`  |
+|-       | `__sub__`  |
+|*       | `__mul__`  |
+|/       | `__div__`  |
+|<       | `__lt__`   |
+|<=      | `__le__`   |
+|==      | `__eq__`   |
+|!=      | `__ne__`   |
+|>=      | `__ge__`   |
+|>       | `__gt__`   |
+|str()   | `__str__`  |
+|len()   | `__len__`  |
+|bool()  | `__bool__` |
 
 Por exemplo:
 
