@@ -29,7 +29,6 @@ Aula 4
 Aula 5
 ------
 - Imports
-- Context managers
 - I/O de arquivos
 - Biblioteca padrão:
 	- math
@@ -38,6 +37,7 @@ Aula 5
 
 Aula 6
 ------
+- Context managers
 - Exceptions
 - Decorators
 - Biblioteca padrão:

@@ -1,11 +1,10 @@
-Aula 5 - Imports, context managers e I/O de arquivos
+Aula 5 - Imports e I/O de arquivos
 ===================================================
 
 Conteúdo de aula
 ----------------
 
 - Imports
-- Context managers
 - I/O de arquivos
 - Biblioteca padrão:
 	- math
@@ -52,7 +51,9 @@ Exercícios:
 
 Escreva um programa que implemente uma simulação do Problema de Monty Hall.
 
-- O jogo consiste no seguinte: Monty Hall (o apresentador) apresenta 3 portas aos concorrentes, sabendo que atrás de uma delas está um carro e que as outras têm cabras.
+O jogo consiste no seguinte:
+
+- Monty Hall (o apresentador) apresenta 3 portas aos concorrentes, sabendo que atrás de uma delas está um carro e que as outras têm cabras.
 
 - O concorrente escolhe uma porta (que ainda não é aberta)
 
@@ -74,5 +75,5 @@ O programa deverá receber 2 argumentos pela linha de comando ou pela função `
 https://projecteuler.net/problem=22
 
 
-(linkpt): https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall
-(linken): https://en.wikipedia.org/wiki/Monty_Hall_problem
+[linkpt]: https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall
+[linken]: https://en.wikipedia.org/wiki/Monty_Hall_problem
