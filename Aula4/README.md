@@ -1,4 +1,4 @@
-Aula 3 - Classes e Dicionários
+Aula 4 - Classes e Dicionários
 ===================================================
 
 Conteúdo de aula
@@ -188,7 +188,7 @@ Exercícios:
 ###1. Book
 Implemente uma classe chamada `Book`.
 
-O construtor dessa classe receberá uma string `name` e um ine `page_count`.
+O construtor dessa classe receberá uma string `name` e um int `page_count`.
 
 A transformação dessa classe em string deve retornar `name`.
 
