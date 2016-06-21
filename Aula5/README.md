@@ -81,7 +81,7 @@ Além destes métodos também existe o `readlines`, que retorna todo o conteúdo
 
 ###Biblioteca Padrão:
 
-####[math][https://docs.python.org/3/library/math.html]
+####[math](https://docs.python.org/3/library/math.html)
 ```python
 log(x[, base])  # Retorna o logaritmo de x na base e. Se a variável base for definida, ela será usada no lugar de e
 exp(x)          # Retorna e**x
@@ -98,7 +98,7 @@ radians(x)      # Converte graus para radianos
 hypot(x)        # Retorna sqrt(x*x + y*y)
 ```
 
-####[random][https://docs.python.org/3/library/random.html]
+####[random](https://docs.python.org/3/library/random.html)
 ```python
 random()                         # Retorna um float em [0.0, 1.0)
 choice(seq)                      # Retorna um elemento aleatório de seq
@@ -108,7 +108,7 @@ shuffle(seq)                     # Embaralha seq (len(seq) não pode ser 0)
 sample(population, k)            # Retorna k elementos aleatórios de population	(k não pode ser maior que len(population))
 ```
 
-####[sys][https://docs.python.org/3/library/sys.html]
+####[sys](https://docs.python.org/3/library/sys.html)
 ```python
 argv      # Uma lista com
 exit(n)   #
