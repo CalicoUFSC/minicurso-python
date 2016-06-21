@@ -110,8 +110,8 @@ sample(population, k)            # Retorna k elementos aleatórios de population
 
 ####[sys](https://docs.python.org/3/library/sys.html)
 ```python
-argv      # Uma lista com
-exit(n)   #
+argv      # Uma lista com os argumentos de linha de comando passados quando o python foi iniciado
+exit(n)   # Termina o programa com exit code n
 ```
 
 Exercícios:
