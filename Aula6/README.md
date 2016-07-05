@@ -87,6 +87,8 @@ def greet(name):
 greet = bold(greet)
 
 print(greet("Maria"))  # <b>Hello, Maria!</b>```
+```
+
 
 Com decorator:
 ```python
