@@ -1,4 +1,4 @@
-Aula 5 - Decorators, Exceptions e Context managers
+Aula 6 - Decorators, Exceptions e Context managers
 ===================================================
 
 Conteúdo de aula
@@ -15,7 +15,7 @@ Conteúdo de aula
 Iniciar uma exceção:
 
 ```python
-raise Exception()
+raise Exception
 ```
 
 Ou:
