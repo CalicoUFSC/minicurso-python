@@ -46,6 +46,3 @@ Aula 6
 	- pickle
 	- functools
 	- itertools
-
-
-- TO-DO
