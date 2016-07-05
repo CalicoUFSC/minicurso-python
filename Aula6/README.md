@@ -59,7 +59,7 @@ finally:
 	# sempre será executado
 ```
 
-Por exemplo, este código sempre fechará o arquivo, evitando um (resource leak)[https://en.wikipedia.org/wiki/Resource_leak]:
+Por exemplo, este código sempre fechará o arquivo, evitando um [resource leak](https://en.wikipedia.org/wiki/Resource_leak):
 
 ```python
 f = open('file')
