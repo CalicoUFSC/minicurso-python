@@ -37,14 +37,15 @@ Aula 5
 
 Aula 6
 ------
-- Context managers
-- Exceptions
 - Decorators
+- Exceptions
+- Context managers
 - Biblioteca padrão:
 	- os.path
 	- json
 	- pickle
 	- functools
 	- itertools
+
 
 - TO-DO

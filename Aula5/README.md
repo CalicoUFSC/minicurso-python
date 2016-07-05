@@ -125,7 +125,7 @@ O jogo consiste no seguinte:
 
 - Monty Hall (o apresentador) apresenta 3 portas ao jogador, sabendo que atrás de uma delas está um carro e que as outras têm cabras.
 
-- O jogador escolhe uma porta (que ainda não é aberta)
+- O jogador escolhe uma porta (que ainda não é aberta) (em seu programa, essa escolha deve ser feita aleatóriamente)
 
 - Em seguida Monty abre uma das outras duas portas que o jogador não escolheu (nunca será a porta com o carro)
 
